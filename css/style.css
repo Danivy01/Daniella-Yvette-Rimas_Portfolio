@@ -73,7 +73,7 @@ textarea {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: left; }
+  text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
@@ -145,7 +145,7 @@ textarea {
 
 .btn {
   background: #fff;
-  color: #333;
+  color: var(--primary-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -156,6 +156,7 @@ textarea {
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
+    position: relative;
     padding: 1.5rem 8rem;
     font-size: 2rem; }
   .btn--med {
@@ -180,7 +181,7 @@ textarea {
 .text-primary {
   color: #fff;
   font-size: 2.2rem;
-  text-align: left;
+  text-align: center;
   width: 100%;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
@@ -509,8 +510,8 @@ textarea {
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
 
   .heading-greeting {
-    font-size: 28px;
-    text-align: left;
+    font-size: 36px;
+    text-align: center;
     color: var(--light);
   }
 
@@ -536,7 +537,7 @@ textarea {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: var(--light) }
+    background: var(--primary-color) }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
