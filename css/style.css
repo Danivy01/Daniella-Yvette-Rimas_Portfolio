@@ -21,7 +21,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   font-family: inherit; }
 
 :root{
-  --primary-color: #8E44AD;
+  --primary-color: #5B2C6F;
   --secondary-color: #C39BD3;
   --dark: #1E1E1E;
   --light: #FFFFFF;
@@ -546,7 +546,7 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: var(--primary-color); }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -586,8 +586,24 @@ textarea {
     letter-spacing: 1px;
     /* font-weight: 700; */
     transition: color .3s; }
+
+    .header__link:after{
+      content: "";
+      display: block;
+      margin: left;
+      background-color: var(--primary-color);
+      height: 3px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;
+    }
+
+    .header__link:hover:after{
+      width: 100%;
+    }
     .header__link:hover {
-      color: var(--secondary-color) }
+      color: var(--primary-color)}
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
