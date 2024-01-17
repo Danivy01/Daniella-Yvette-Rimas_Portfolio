@@ -204,9 +204,9 @@ textarea {
   color: #fff;
   background:#FBFCFC;
   background-position: center;
-  height: 90vh;
-  min-height: 60rem;
-  max-height: 90rem;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
@@ -247,12 +247,12 @@ textarea {
   .home-hero__content {
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
     width: 92%; 
     /* display: inline-block; */
-    /* text-align: center; */
+    text-align: center;
   }
     @media only screen and (max-width: 37.5em) {
       .home-hero__content {
