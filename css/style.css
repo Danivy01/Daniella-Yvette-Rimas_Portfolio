@@ -202,7 +202,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -462,7 +462,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background:#FBFCFC;
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -506,7 +506,8 @@ textarea {
   margin-bottom: 6rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 100%; 
+  margin-bottom: 8rem;}
 
 .project-details__content-main {
   width: 100%;
