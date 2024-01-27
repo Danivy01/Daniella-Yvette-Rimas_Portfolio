@@ -203,7 +203,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  background-image: linear-gradient(to top, #cc208e 0%, #5B2C6F 100%);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -399,7 +399,7 @@ textarea {
           .project-row__link:hover {
             color: var(--primary-color); }
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background-image: linear-gradient(to top, #cc208e 0%, #5B2C6F 100%);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -480,10 +480,13 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  background-image: linear-gradient(to top, #cc208e 0%, #5B2C6F 100%);
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
       height: unset;
