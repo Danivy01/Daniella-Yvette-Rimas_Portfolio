@@ -299,17 +299,16 @@
         </div>
       </div>
     </section>
-    <!-- <section id="contact" class="contact sec-pad dynamicBg">
+    <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="#" class="contact__form" id="form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -350,7 +349,7 @@
           </form>
         </div>
       </div>
-    </section> -->
+    </section>
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -417,5 +416,14 @@
     </footer>
 
     <script src="./index.js"></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("alJ2oWKWEbzC5aACy");
+    })();
+  </script>
   </body>
 </html>

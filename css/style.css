@@ -709,7 +709,7 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background-image: linear-gradient(to top, #cc208e 0%, #5B2C6F 100%);
+  background: #5B2C6F;
   color: #fff; }
   .main-footer__upper {
     display: flex;
